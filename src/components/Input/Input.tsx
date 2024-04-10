@@ -18,7 +18,7 @@ const Input = ({ children }: InputProps) => {
 const Field = ({ ...props }: TextInputProps) => {
   return (
     <TextInput
-      className='flex-1 w-full text-white text-base font-regular'
+      className='flex-1 w-full  h-14 -mt-[4px] text-white text-base font-regular'
       placeholderTextColor={colors.gray[200]}
       {...props}
     />
